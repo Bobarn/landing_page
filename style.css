@@ -8,9 +8,22 @@ body {
     color: #483C32;
 }
 
+h1 {
+    text-align: center;
+    justify-content: center;
+}
 .container {
     display: flex;
     flex-direction: column;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.link {
+    margin-left: auto;
+    display: flex;
 }
 
 .header, .footer {

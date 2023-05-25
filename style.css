@@ -48,7 +48,7 @@ h1 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #B0808C;
+    background-color: #8ABD91;
     padding: 40px;
     margin: 0px;
 }
@@ -112,8 +112,8 @@ h1 {
 
 .card {
     display: flex;
-    padding: 30px;
-    margin: 15px;
+    padding-top: 5px;
+    margin-top: 5px;
     flex-direction: column;
     flex-wrap: wrap;
 }
@@ -140,8 +140,24 @@ h1 {
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: lightgrey;
-    align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.ribbon h2 {
+    font-size: 36px;
+    color: #483C32;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
+
+.ribbon b {
+    color: #483C32;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Roboto', arial;
+    text-align: right;
 }
 
 .lastband {
@@ -185,7 +201,7 @@ h1 {
 }
 
 .socials-button {
-    background:#B0808C;
+    background:#f1c7d1;
     color: #483C32;
     display: block;
     text-align: center;
